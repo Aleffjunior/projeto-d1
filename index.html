@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt=br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="img/logo.png">
+        <h1 class="tittle">Decodificador de texto</h1>
+
+      <div class="left">
+
+          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="escreva o texto aqui...">
+
+      </div>
+      <div class="right">
+        <img src="img/bo.png" id="imgDer">
+        <h1 id="texto">Nenhuma mensagem encontrada</h1>
+        <textarea id="texto2" >escreva o texto no Decodificador</textarea>
+        <button type="button" id="copiar" onclick="copia()">¡Copiar!</button>
+      </div>
+      <div class="left-button">
+        <p>SO LETRA MINUSCULA E SEM ACENTO!</p>
+        <button type="button" id="btn-criptografar" onclick="criptografar()">criptografar</button>
+        <button type="button" id="btn-descriptografar" onclick="descriptografar()">descriptografar!</button>
+      </div>
+    </div>
+    <footer>
+      <h3>Feito por @juuninn_</h3>
+    </footer>
+  </body>
+</html>
